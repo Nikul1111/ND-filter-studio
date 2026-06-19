@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ND Filter Studio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<header>
+<h1>ND Filter Studio</h1>
+<p>Upload a photo and preview filters.</p>
+</header>
+
+<div class="uploadBox">
+<input type="file" id="imageUpload" accept="image/*">
+</div>
+
+<div class="previewArea">
+<div class="mainImage">
+<canvas id="mainCanvas"></canvas>
+</div>
+<div class="buttons">
+<button id="downloadBtn">Download Image</button>
+</div>
+</div>
+
+<h2>Filter Gallery</h2>
+<div id="filterGallery"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

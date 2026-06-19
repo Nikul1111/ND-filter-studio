@@ -1,0 +1,12 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+body{background:#0d1117;color:#fff;padding:20px;}
+.container{max-width:1200px;margin:auto;}
+header{text-align:center;margin-bottom:20px;}
+.uploadBox{text-align:center;margin:20px;}
+.mainImage{display:flex;justify-content:center;margin:20px;}
+#mainCanvas{max-width:100%;border:1px solid #333;}
+#filterGallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:15px;}
+.filterCard{background:#161b22;padding:10px;border-radius:10px;cursor:pointer;}
+.filterCard canvas{width:100%;}
+.filterName{text-align:center;margin-top:8px;}
+button{padding:10px 20px;}
